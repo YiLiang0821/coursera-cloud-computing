@@ -1,5 +1,5 @@
 from hello import add
 
 
-def add_test():
+def test_add():
     assert add(1, 2) == 3
