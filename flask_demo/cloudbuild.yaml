@@ -1,7 +1,5 @@
 steps:
-- name: 'gcr.io/cloud-builders/go'
-  env: ['PROJECT_ROOT=gcp-cloud-computing-2021']
-  dir: 'coursera-cloud-computing/flask_demo'
 - name: "gcr.io/cloud-builders/gcloud"
+  dir: 'coursera-cloud-computing/flask_demo'
   args: ["app", "deploy"]
 timeout: "1600s"
