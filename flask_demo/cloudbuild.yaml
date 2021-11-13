@@ -1,5 +1,5 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  dir: 'coursera-cloud-computing/flask_demo'
+  dir: 'flask_demo'
   args: ["app", "deploy"]
 timeout: "1600s"
