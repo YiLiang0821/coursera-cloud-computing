@@ -1,6 +1,9 @@
-install:
+install-gcp:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+		pip install -r requirements-gcp.txt
+install-aws:
+	pip install --upgrade pip &&\
+		pip install -r requirements-aws.txt
 
 format:
 	black *.py
