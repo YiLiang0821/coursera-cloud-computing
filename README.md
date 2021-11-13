@@ -23,7 +23,7 @@ $ gcloud auth list
 $ python main.py
 ```
 6. Run cloud native command 
-Noted: You need to enable Cloud Build API first
+Noted: You need to enable App Engine and Cloud Build API first. (You can disable it after practice)
 ```console
 $ gcloud app deploy
 $ <choose region>
